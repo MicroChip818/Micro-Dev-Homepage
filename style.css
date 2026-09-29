@@ -4,18 +4,55 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    z-index: 1;
+    padding-block: 5px;
+}
+
+.nav-links {
+    margin-inline: 5px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h1 { 
     text-align: center;
+    margin-bottom: 18px;
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 main {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.projects {
+    border-style: solid;
+    border-color: rgb(41, 41, 143);
+    background-color: rgb(4, 84, 163);
+    border-width: 6px;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    padding-inline: 10px;
+    margin-block: 15px;
+    text-align: center;
 }
 
 .page-intro, footer {
