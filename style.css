@@ -26,7 +26,7 @@ p, li {
 
 h1 { 
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -46,19 +46,23 @@ a {
 }
 
 a:hover {
-    color: rgb(0, 0, 255);
+    color: rgb(0, 162, 255);
 }
 
 .projects {
     border-style: solid;
     border-color: rgb(41, 41, 143);
-    background-color: rgb(4, 84, 163);
+    background-color: rgb(13, 118, 223);
     border-width: 6px;
     border-radius: 25px;
     padding-bottom: 15px;
     padding-inline: 10px;
     margin-block: 15px;
     text-align: center;
+}
+
+.project-names {
+    font-size: 18px;
 }
 
 img {
@@ -86,7 +90,7 @@ img {
     text-align: center;
 }
 
-.about-links {
+.about-links, .about-links:hover {
     text-decoration: underline;
     color: rgb(0, 0, 255)
 }
